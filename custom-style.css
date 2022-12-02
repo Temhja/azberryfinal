@@ -1,0 +1,43 @@
+:root {
+    --primary1:#f82b07 !important;
+    --primary2:#fa6f05 !important;
+    --background:#EA5921 !important;
+    --secondary:#696665 !important;
+    --texts: #030303 !important;
+    --page-title: #fff !important;
+    }
+    
+    @import  url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    [lang='ar'] *,[lang='ar'] p ,[lang='ar'] span ,[lang='ar'] ul,[lang='ar'] h1,[lang='ar'] h2,[lang='ar'] h3,[lang='ar'] h4,[lang='ar'] h6 {
+        font-family: 'Cairo', sans-serif;
+        letter-spacing: 0px !important;
+    }
+    
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:80px;
+        right:20px;
+        background-color:var(--secondary);
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 2px 2px 3px rgb(0 0 0 / 15%);
+        z-index:1000;
+    
+    }
+    .float .shop-icon{
+        font-size:25px
+    }
+    .float-inner{
+    line-height:2.7}
+    .float .items-count{
+        position: absolute;
+        top: 5px;
+        background: var(--primary2);
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        left: 12px;
+    }
