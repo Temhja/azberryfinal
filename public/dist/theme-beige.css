@@ -516,6 +516,8 @@ img {
     float: left
 }
 
+
+
 #header .module-logo {
     position: absolute;
     top: 0;
@@ -2978,15 +2980,15 @@ body.no-margins .header-absolute .section-main {
 .bg-slideshow .slick-list,
 .bg-slideshow .slick-track {
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .bg-multiply {
-    mix-blend-mode: multiply
+    mix-blend-mode: multiply;
 }
 
 .bg-overlay {
-    mix-blend-mode: overlay
+    mix-blend-mode: overlay;
 }
 
 .bg-video {
